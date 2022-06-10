@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!--========== BOX ICONS ==========-->
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+
+        <!--========== CSS ==========-->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <title>Responsive resume cv</title>
+    </head>
+    <body>
+        <!--========== HEADER ==========-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-container">
+                <a href="#" class="nav__logo">Fabian</a>
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item">
+                            <a href="#home" class="nav__link">
+                                <i class='bx bxs-home nav__icon active-link'></i>Inicio
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#profile" class="nav__link">
+                                <i class='bx bx-user nav__icon'></i>Perfil
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#education" class="nav__link">
+                                <i class='bx bx-book nav__icon'></i>Educación
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#experience" class="nav__link">
+                                <i class='bx bx-receipt nav__icon'></i>Experiencia
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#skills" class="nav__link">
+                                <i class='bx bx-briefcase-alt nav__icon'></i>Habilidades
+                            </a>
+                        </li>
+
+                        <li class="nav__item">
+                            <a href="#references" class="nav__link">
+                                <i class='bx bx-link-external nav__icon'></i>Referencias
+                            </a>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bx-grid-alt'></i>
+                </div>
+            </nav>
+            
+        </header>
+
+        <main class="l-main bd-container">
+            <!-- All elements within this div, is generated in PDF -->
+            <div class="resume" id="area-cv">
+                <div class="resume__left">
+                    <!--========== HOME ==========-->
+                    <section class="home" id="home">
+                        <div class="home__container section bd-grid">
+                            <div class="home__data bd-grid">
+                                <img src="assets/img/perfil3.jpg" alt="Imagen de perfil" class="home__img">
+
+                                <h1 class="home__title">Fabian <b>Barrera</b></h1>
+                                <h3 class="home__profession">Desarrollador Web</h3>
+                                
+                                <!-- Button to generate and download the pdf. Available for desktop. -->
+                                <div>
+                                    <a download="" href="assets/pdf/FabianBarrera_CV.pdf" class="home__button-movil">Descargar CV</a>
+                                </div>
+                            </div>
+
+                            <div class="home__address bd-grid">
+                                <span class="home__information">
+                                    <i class='bx bx-map home__icon'></i> Usaquén - Bogotá - Colombia
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bx-envelope home__icon'></i> febarrera12@misena.edu.co
+                                </span>
+
+                                <span class="home__information">
+                                    <i class='bx bx-phone home__icon'></i> 3218483745
+                                </span>
+                            </div>
+                        </div>
+                        <!-- Theme change button -->
+                        <i class='bx bx-moon change-theme' title="theme" id="theme-button"></i>
+
+                        <i class='bx bx-download generate-pdf' title="Generate-PDF" id="resume-button"></i>
+                    </section>
+                        
+    
+                    
+                    <!--========== SOCIAL ==========-->
+                    <section class="social section">
+                        <h2 class="section-title">Redes Sociales</h2>
+
+                        <div class="social__container bd-grid">
+                            <a href="https://www.linkedin.com/in/fabian-barrera-a24296195/" class="social__link" target="_blank">
+                                <i class='bx bxl-linkedin-square social__icon'></i> linkedin
+                            </a>
+
+                            <a href="https://github.com/soydesarrolladorweb" class="social__link" target="_blank">
+                                <i class='bx bxl-github social__icon'></i> GitHub
+                            </a>
+
+                            <a href="https://soydesarrolladorweb.github.io/fabianBarrera/" class="social__link" target="_blank">
+                                <i class='bx bx-window-alt social__icon'></i> Sitio-Web
+                            </a>
+                        </div>
+                    </section>
+
+                    <!--========== PROFILE ==========-->
+                    <section class="profile section" id="profile">
+                        <h2 class="section-title">Perfil</h2>
+
+                        <p class="profile__description">Soy Tecnólogo en Análisis y Desarrollo de Sistemas de Información, especializado en el Desarrollo Web, autodidacta y orientado a la solución de problemas, usando lenguajes de programación.</p>
+                    </section>
+                    
+                    <!--========== EDUCATION ==========-->
+                    <section class="education section" id="education">
+                        <h2 class="section-title">Educación</h2>
+
+                        <div class="education__container bd-grid">
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Tecnólogo - ADSI</h3>
+                                    <span class="education__studies">SENA CDA CHIA</span>
+                                    <span class="education__year">2019 - 2021</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Diseño web php y MySQL</h3>
+                                    <span class="education__studies">SENA - Curso Virtual</span>
+                                    <span class="education__year">Diciembre 2020</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <span class="education__line"></span>
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">JAVASCRIPT</h3>
+                                    <span class="education__studies">SENA - Curso Virtual</span>
+                                    <span class="education__year">Octubre 2020</span>
+                                </div>
+                            </div>
+
+                            <div class="education__content">
+                                <div class="education__time">
+                                    <span class="education__rounder"></span>
+                                    <!-- <span class="education__line"></span> -->
+                                </div>
+
+                                <div class="education__data bd-grid">
+                                    <h3 class="education__title">Desarrollo Web I-II </h3>
+                                    <span class="education__studies">GOOGLE ACTIVE - Curso Virtual</span>
+                                    <span class="education__year">Marzo 2020 - Abril 2020</span>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        
+                    </section>
+
+
+                </div>
+
+                <div class="resume__right">
+                    <!--========== EXPERIENCE ==========-->
+                    <section class="experience section" id="experience">
+                        <h2 class="section-title">Experiencia</h2>
+
+                        <div class="experience__container bd-grid">
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Desarrollador Web Freelance</h3>
+                                    <span class="experience__company">Feb 2021  | Independiente</span>
+                                    <p class="experience__description">Analizar, Diseñar y Desarrollar soluciones tecnológicas, creación de pasarela de pagos, aplicaciones personalizadas utilizando las últimas tendencias en diseño y con las siguientes tecnologías: Html5, Css3, Sass, Bootstrap, JavaScript Moderno, Php, Python, Node.Js, conexión de API's externas para la construcción de un sitio o WebAPI y realizando el enlace a bases de datos para la persistencia de la Información.</p>
+                                </div>
+                            </div>
+
+                        
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Programador - Aprendiz TI</h3>
+                                    <span class="experience__company">Jul 28 2020 - Ene 27 2021 | VITALIS S.A.C.I</span>
+                                    <p class="experience__description">Fui el encargado de analizar, diseñar y desarrollar un sistema web para la adquisición de personal de la compañía, atacando los largos tiempos que tardaba este proceso manual. Las tecnologías aplicadas fueron: Html5, Css3, Bootstrap4, JavaScript, Ajax, JQuery, Php7, base de datos SQL con MySQL y SweetAlert2, el despliegue se realizo en un servidor Linux de la compañia.</p> 
+                                </div>
+                            </div>
+                            
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <span class="experience__line"></span>
+                                </div>
+
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Desarrollador Web</h3>
+                                    <span class="experience__company">Ene 27 2019 - Ene 28 2021 | SENA CDA CHIA | Tecnólogo</span>
+                                    <p class="experience__description">Analizar, Diseñar, Desarrollar, probar y Desplegar un sistema web de inventarios y facturación electrónica para pequeñas y medianas empresas, desarrollado en: Html5, Css3, Bootstrap4, JavaScript, Ajax, JQuery, MySQL, Php7, JSON, SweetAlert2 y mucho más.</p>
+                                </div>
+                            </div>
+
+                            <div class="experience__content">
+                                <div class="experience__time">
+                                    <span class="experience__rounder"></span>
+                                    <!-- <span class="experience__line"></span> -->
+                                </div>
+                                <div class="experience__data bd-grid">
+                                    <h3 class="experience__title">Ejecutivo de Cobranzas Nivel I</h3>
+                                    <span class="experience__company">Sept 2014 - Sept 2018 | Gestiones & Cobranzas S.A</span>
+                                    <p class="experience__description">Recuperación de cartera productos persona natural del Banco Colpatria con mora mayor a 30 días de forma telefónica.</p>
+                                </div>
+                            </div>
+
+                            
+                        </div>
+                    </section>
+
+                     <!--========== SKILLS  ==========-->
+                    <section class="skills section" id="skills">
+                        <h2 class="section-title">Habilidades</h2>
+
+                        <div class="skills__content bd-grid">
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Html5 - Css3 - JavaScript
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Php - Python - Node.Js
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> API_REST - MVC
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Bootstrap - SASS - Figma
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> SQL - MySQL
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> GIT - API_Insomnia
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> API_WordPress - API_Stripe
+                                </li>
+                            </ul>
+
+                            <ul class="skills__data">
+                                <li class="skills__name">
+                                    <span class="skills__circle"></span> Scrum - Kanban
+                                </li>
+                            </ul>
+
+                        </div>
+                        
+                    </section>
+
+                    
+
+                    <!--========== LANGUAGES ==========-->
+                    <!-- <section class="languages section">
+                        <h2 class="section-title">Idiomas</h2>
+
+                        <div class="languages__container">
+                            <ul class="languages__content bd-grid">
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Español - Nativo
+                                </li>
+
+                                <li class="languages__name">
+                                    <span class="languages__circle"></span> Ingles - B1
+                                </li>
+                            </ul>
+                        </div>
+                    </section> -->
+                    
+                    <!--========== INTERESTS ==========-->
+                    <!-- <section class="interests section">
+                        <h2 class="section-title">Pasatiempos</h2>
+
+                        <div class="interests__container bd-grid">
+                            <div class="interests__content">
+                                <i class='bx bx-cycling interests__icon'></i>
+                                <span class="interests__name">Ciclismo</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bxs-plane-alt interests__icon'></i>
+                                <span class="interests__name">Viajar</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-book interests__icon'></i>
+                                <span class="interests__name">Leer</span>
+                            </div>
+
+                            <div class="interests__content">
+                                <i class='bx bx-dumbbell interests__icon'></i>
+                                <span class="interests__name">Ejercitarme</span>
+                            </div>
+                        </div>
+                        
+                    </section> -->
+
+                    <!--========== REFERENCES ==========-->
+                    <section class="references section" id="references">
+                        <h2 class="section__title">Referencias</h2>
+                        <p>&nbsp;</p>
+                        <div class="references__container bd-grid">
+                            <div class="references__content bd-grid">
+                                <h3 class="references__title">Referencia Personal</h3>
+                                <!-- <span class="references__subtitle">Analista funcional Junior</span> -->
+                                <h3 class="references__title">Cristian Diaz</h3>
+                                <span class="references__subtitle">Analista funcional Junior</span>
+                                <ul class="references__contact">
+                                    <li>Telefono: 3202067727</li>
+                                    <li>Empresa: Capgemini</li>
+                                </ul>
+                            </div>
+
+                            <div class="references__content bd-grid">
+                                <h3 class="references__title">Referencia Comercial</h3>
+                                <!-- <span class="references__subtitle">Administrador</span> -->
+                                <h3 class="references__title">Camilo Medellin</h3>
+                                <span class="references__subtitle">Administrador</span>
+                                <ul class="references__contact">
+                                    <li>Telefono: 3165283353</li>
+                                    <li>Empresa: Hiperdroguerias fármacos</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </section>
+                </div>
+            </div>        
+        </main>
+
+        <!--========== SCROLL TOP ==========-->
+        <a href="#" class="scrolltop" id="scroll-top">
+            <i class='bx bxs-up-arrow-alt scrolltop__icon'></i>
+        </a>
+
+        <!--========== HTML2PDF ==========-->
+        <script src="assets/js/html2pdf.bundle.min.js"></script>
+
+        <!--========== MAIN JS ==========-->
+        <script src="assets/js/main.js"></script>
+    </body>
+</html>
